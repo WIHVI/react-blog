@@ -64,6 +64,13 @@ button:hover {
   padding: 20px;
 }
 
+@media screen and (max-width: 540px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* blog previews / list */
 .blog-preview {
   padding: 10px 16px;
